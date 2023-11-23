@@ -7,21 +7,24 @@
     <title>tablas</title>
 </head>
 <style>
-    table, th ,td{
-        border: 1px solid black;
-        
-
+    table{
+        border: 2px solid;
+        /*border-style: dashed;*/
+        border-color: rgb(223, 4, 223);
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
 
     }
     td, th{
         border-radius: 10px;
+        border: 1px solid black;
     }
-    td {
-        /*background-color: bisque;*/
-
+    td{
+        height: 45px; 
     }
     th{
-        background-color: aliceblue;
+        background-color: rgb(0, 248, 41);
     }
 
     #color1{
@@ -36,11 +39,11 @@
     <h1 align="center">tablas</h1>
     <table>
         <tr id="color1">
-            <td>Nombre</td>
-            <td>Apellido</td>
-            <td>Ciudad</td>
-            <td>Telefotno</td>
-            <td>Direccion</td>
+            <th style="width: 5%;">Nombre</th>
+            <th style="width: 10%;">Apellido</th>
+            <th style="width: 10%;">Ciudad</th>
+            <th style="width: 10%;">Telefotno</th>
+            <th style="width: 10%;">Direccion</th>
         </tr>
         <tr id="color2">
             <td>Javier</td>
