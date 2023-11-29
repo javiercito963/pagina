@@ -1,3 +1,6 @@
+body{
+    background-color: aqua;
+}
 nav{
     display: flex;
     align-items: center;
@@ -8,7 +11,7 @@ nav{
     font-weight: bold;
 }
 h1{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 45px;
 
 }
@@ -18,4 +21,8 @@ ul li{
 }
 nav a:hover{
     color: rgb(154, 52, 185);
+}
+a{
+    color: rgb(17, 19, 20);
+    text-decoration: none;
 }
